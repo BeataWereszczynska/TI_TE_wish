@@ -3,7 +3,7 @@ Calculating theoretical T<sub>1</sub>-weighted MRI images with arbitrary value o
 
 Calculating theoretical T<sub>2</sub>-weighted MRI images with arbitrary value of echo time (TE) based on previously acquired multi-echo multi-slice (MEMS) .fid (Agilent) data.
 
-The script can also be used for calculating T<sub>1</sub>, T<sub>2</sub> and Mo maps without calculating theoretical images.
+The script can also be used for calculating T<sub>1</sub>, T<sub>2</sub> and M<sub>0</sub> maps without calculating theoretical images.
 
 
 ## The repository contains:
@@ -25,4 +25,4 @@ The software is licensed under the **MIT license**. The non-software content of 
 **MRI_k-space-derived_details_edges** - k-space based details/edges detection in MRI images with optional k-space based denoising and detail control
 (data import suitable for Agilent FID files, three binarization methods to choose from), https://doi.org/10.5281/zenodo.7388435 (https://github.com/BeataWereszczynska/MRI_k-space-derived_details_edges).
 
-**Swelling_tablet_fronts_D_k_from_MRI_T2_or_img** - Tool for characterizing the swelling of tablets immersed in a solution. Creates time plots and calculates eroding front's diffusion rate D and the rate of the swelling k from time series of either T2-maps or (properly contrasted, e.g. T2-weighted) MRI images in FDF (file format native for Agilent MRI scanners) or Text Image format. This software is suitable for swelling matrix tablets forming a membrane-like structure in contact with the solution in which they are immersed, https://doi.org/10.5281/zenodo.7262466 (https://github.com/BeataWereszczynska/Swelling_tablet_fronts_D_k_from_MRI_T2_or_img).
+**Swelling_tablet_fronts_D_k_from_MRI_T2_or_img** - Tool for characterizing the swelling of tablets immersed in a solution. Creates time plots and calculates eroding front's diffusion rate D and the rate of the swelling k from time series of either T<sub>2</sub>-maps or (properly contrasted, e.g. T<sub>2</sub>-weighted) MRI images in FDF (file format native for Agilent MRI scanners) or Text Image format. This software is suitable for swelling matrix tablets forming a membrane-like structure in contact with the solution in which they are immersed, https://doi.org/10.5281/zenodo.7262466 (https://github.com/BeataWereszczynska/Swelling_tablet_fronts_D_k_from_MRI_T2_or_img).
