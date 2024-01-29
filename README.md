@@ -8,7 +8,7 @@ Simulating T1- and T2-weighted MRI images with arbitrary value of TI or TE (resp
 
 Documentation coming soon.
 
-## Reference: Collection of the sample data**
+## Reference: Collection of the sample data
 Beata Wereszczyńska, ***Alcohol-fixed specimens for high-contrast post-mortem MRI***, Forensic Imaging, Volume 25, 2021, 200449, ISSN 2666-2256, https://doi.org/10.1016/j.fri.2021.200449. (https://www.sciencedirect.com/science/article/pii/S2666225621000208)
 
 ## License
