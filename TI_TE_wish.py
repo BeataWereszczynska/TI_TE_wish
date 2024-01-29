@@ -15,7 +15,7 @@ T_wish = [1, 250, 700, 1200, 3000] # list of TE or TI values (ms) for theoretica
 
 
 # # MEMS example:   
-# path = 'mems_20190519_01.fid'    # .fid folder location [str] 'mems_20190406_02.fid'
+# path = 'mems_20190519_01.fid'    # .fid folder location [str]
 # T_wish = [1, 3, 10, 100, 500]    # list of TE or TI values (ms) for theoretical MRI images
 
 
