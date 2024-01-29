@@ -1,7 +1,7 @@
 # TI_TE_wish
-Calculating theoretical T1-weighted MRI images with arbitrary value of inversion time (TI) based on previousl acquired spin echo multi-slice experiment with inversion recovery (SEMS-IR) .fid (Agilent) data.
+Calculating theoretical T1-weighted MRI images with arbitrary value of inversion time (TI) based on previously acquired spin echo multi-slice experiment with inversion recovery (SEMS-IR) .fid (Agilent) data.
 
-Calculating theoretical T2-weighted MRI images with arbitrary value of echo time (TE) based on previousl acquired multi-echo multi-slice (MEMS) .fid (Agilent) data.
+Calculating theoretical T2-weighted MRI images with arbitrary value of echo time (TE) based on previously acquired multi-echo multi-slice (MEMS) .fid (Agilent) data.
 
 The script can also be used for calculating T1, T2 and Mo maps without calculating theoretical images.
 
