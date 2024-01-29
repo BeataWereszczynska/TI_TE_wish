@@ -1,12 +1,17 @@
 # TI_TE_wish
-Simulating T1- and T2-weighted MRI images with arbitrary value of TI or TE (respectively)
+Calculating theoretical T1-weighted MRI images with arbitrary value of inversion time (TI) based on acquired Agilent MRI spin echo multi-slice experiment with inversion recovery (SEMS-IR) .fid data.
+Calculating theoretical T2-weighted MRI images with arbitrary value of echo time (TE) based on acquired Agilent MRI multi-echo multi-slice (MEMS) .fid data.
+The script can also be used for calculating T1, T2 and Mo maps without calculating theoretical images.
+
 
 ## The repository contains:
 1. Python script **TI_TE_wish.py**.
 2. Sample FID data in **sems_20190407_07.fid** and **mems_20190519_01.fid** folders.
 3. Sample results in **Theoretical_MRI_T1w** and **Theoretical_MRI_T2w** folders.
 
+
 Documentation coming soon.
+
 
 ## Reference: Collection of the sample data
 Beata Wereszczyńska, ***Alcohol-fixed specimens for high-contrast post-mortem MRI***, Forensic Imaging, Volume 25, 2021, 200449, ISSN 2666-2256, https://doi.org/10.1016/j.fri.2021.200449. (https://www.sciencedirect.com/science/article/pii/S2666225621000208)
