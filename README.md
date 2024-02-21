@@ -1,18 +1,17 @@
 # TI_TE_wish
-Calculating theoretical T<sub>1</sub>-weighted MRI images with arbitrary value of inversion time (TI) based on previously acquired spin echo multi-slice experiment with inversion recovery (SEMS-IR) .fid (Agilent) data.
+Calculating theoretical T<sub>1</sub>-weighted MRI images with arbitrary value of inversion time (TI) based on previously acquired spin echo multi-slice experiment with inversion recovery (SEMS-IR) .fid (Agilent) data. This functionality can be used to calculate many T<sub>1</sub>-weighted images, with small TI step, to find the TI value for the optimal image contrast after performing MRI imaging for just few TI values to save time. 
 
-Calculating theoretical T<sub>2</sub>-weighted MRI images with arbitrary value of echo time (TE) based on previously acquired multi-echo multi-slice (MEMS) .fid (Agilent) data.
+Calculating theoretical T<sub>2</sub>-weighted MRI images with arbitrary value of echo time (TE) based on previously acquired multi-echo multi-slice (MEMS) .fid (Agilent) data. This functionality can be useful when TE needed to obtain optimal image contrast is outside the hardware limits. This can happen when using large image matrix while imaging structures with short T<sub>2</sub>.
 
 The script can also be used for calculating T<sub>1</sub>, T<sub>2</sub> and M<sub>0</sub> maps without calculating theoretical images.
+
+The user provides the data folder location and a list of desired TE or TI values. If the list is empty, only the parametric maps are calculated. The script automatically imports the data with all the parameters needed and performs computations. The user can change the value of glob_var parameter to save the maps and/or the images in global Python variable for further use (instead of just saving the image files). 
 
 
 ## The repository contains:
 1. Python script **TI_TE_wish.py**.
 2. Sample FID data in **sems_20190407_07.fid** and **mems_20190519_01.fid** folders.
 3. Sample results in **Theoretical_MRI_T1w** and **Theoretical_MRI_T2w** folders.
-
-
-Documentation coming soon.
 
 
 ## Reference: Collection of the sample data
