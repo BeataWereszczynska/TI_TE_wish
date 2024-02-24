@@ -5,7 +5,7 @@ Calculating theoretical T<sub>2</sub>-weighted MRI images with arbitrary value o
 
 The script can also be used for calculating T<sub>1</sub>, T<sub>2</sub> and M<sub>0</sub> maps without calculating theoretical images.
 
-![Graphical abstract](graph_abstr.png)
+![Graphical abstract](graph_abstr.jpg)
 
 The user provides the data folder location and a list of desired TE or TI values. If the list is empty, only the parametric maps are calculated. The script automatically imports the data with all the parameters needed and performs computations. The user can change the value of glob_var parameter to save the maps and/or the images in global Python variable for further use (instead of just saving the image files). 
 
@@ -14,7 +14,7 @@ The user provides the data folder location and a list of desired TE or TI values
 1. Python script **TI_TE_wish.py**.
 2. Sample FID data in **sems_20190407_07.fid** and **mems_20190519_01.fid** folders.
 3. Sample results in **Theoretical_MRI_T1w** and **Theoretical_MRI_T2w** folders.
-4. Graphical abstract **graph_abstr.png**.
+4. Graphical abstract **graph_abstr.jpg**.
 
 
 ## Reference: Collection of the sample data
