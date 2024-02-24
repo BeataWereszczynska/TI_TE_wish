@@ -14,6 +14,7 @@ The user provides the data folder location and a list of desired TE or TI values
 1. Python script **TI_TE_wish.py**.
 2. Sample FID data in **sems_20190407_07.fid** and **mems_20190519_01.fid** folders.
 3. Sample results in **Theoretical_MRI_T1w** and **Theoretical_MRI_T2w** folders.
+4. Graphical abstract **graph_abstr.png**.
 
 
 ## Reference: Collection of the sample data
