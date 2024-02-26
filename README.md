@@ -25,6 +25,8 @@ The software is licensed under the **MIT license**. The non-software content of 
 
 ## You may also like
 
+**TIandTE_wish** - Calculating theoretical MRI images with both inversion time (TI; T<sub>1</sub>-weighting) and echo time (TE; T<sub>2</sub>-weighting) of choice, from separate T<sub>1</sub>-weighted and T<sub>2</sub>-weighted sets of images. This functionality can be used to visualise how inversion recovery images would look like if TE<sub>min</sub> could be shorter or how the images' contrast will change after TE increase (e.g. due to larger image matrix). Works with Agilent SEMS (with IR) and MEMS .fid data acquired for the same slices and matrice size, (https://github.com/BeataWereszczynska/TIandTE_wish).
+
 **T1wIR_to_T1wSR** - Calculating T<sub>1</sub>-weighted saturation recovery (SR) MRI images for arbitrary values of repetition time (TR) from a set of T<sub>1</sub>-weighted inversion recovery (IR) experimental MRI images. The script can also be used for calculating T<sub>1</sub> and M<sub>0</sub> maps without calculating theoretical images. Works with Agilent .fid data (https://github.com/BeataWereszczynska/T1wIR_to_T1wSR).
 
 **MRI_k-space-derived_details_edges** - k-space based details/edges detection in MRI images with optional k-space based denoising and detail control
